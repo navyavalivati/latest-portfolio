@@ -7,11 +7,11 @@ import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'skills', component: SkillsComponent},
   { path: 'experience', component: ExperienceComponent},
-  { path: '**', redirectTo: '', pathMatch: 'full' } // Wildcard route redirects to home
+  { path: '**', redirectTo: '/home', pathMatch: 'full' } // Wildcard route redirects to home
 ];
