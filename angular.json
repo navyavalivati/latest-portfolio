@@ -34,7 +34,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": ["src/assets/interactive-bg.js"],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
